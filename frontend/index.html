@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>MODSAC Help Bot</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+    <div class="header-left">
+      <h1>🚀 MODSAC Help Bot</h1>
+      <p>Your AI assistant for Satellite & Weather Queries</p>
+    </div>
+    <nav class="header-right">
+      <a href="#chat">Chat</a>
+      <a href="#about">About</a>
+      <a href="#satellites">Satellites</a>
+      <a href="#gallery">Gallery</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <section id="chat">
+    <div id="chat-container">
+      <div id="chat-box"></div>
+      <div id="input-area">
+        <input type="text" id="user-input" placeholder="Ask a question...">
+        <button onclick="sendMessage()">➤</button>
+      </div>
+    </div>
+  </section>
+
+  <section id="about">
+    <h2>About MODSAC</h2>
+    <div class="about-box">
+      <p>The Meteorological and Oceanographic Satellite Data Archival Centre (MOSDAC) is a vital initiative by the Indian Space Research Organisation (ISRO), acting as a central hub for meteorological and oceanographic satellite data. It provides researchers, students, and the public with access to a rich collection of satellite observations, FAQs, documentation, and scientific resources. However, navigating this vast amount of data can often feel overwhelming for new users. To address this, our AI-powered MODSAC Help Bot has been designed as a virtual assistant that simplifies this process. It enables users to quickly retrieve precise answers from static and dynamic content on the MOSDAC portal—be it satellite mission details, product specifications, or technical documentation—through an interactive chat interface.</p>
+      <p>Our website enhances the MOSDAC experience by leveraging natural language processing and a knowledge graph architecture to understand user queries in everyday language. Instead of searching through multiple pages and complex menus, visitors can ask their questions directly to the MODSAC Help Bot and receive instant, contextual responses. Whether it’s about weather forecasting data, satellite imagery, or geospatial insights, the bot ensures seamless access to valuable information. By making MOSDAC’s resources more approachable and user-friendly, our solution empowers scientists, students, and professionals to focus on meaningful analysis and decision-making, without being hindered by navigation challenges.</p>
+    </div>
+  </section>
+
+  <section id="satellites">
+    <h2>Supported Satellites</h2>
+    <div class="satellite-cards">
+      <div class="satellite-card">
+        <img src="insat.png" alt="INSAT">
+        <h3>INSAT</h3>
+        <p>INSAT (Indian National Satellite System) provides telecommunications and weather monitoring for India and neighboring regions.</p>
+      </div>
+      <div class="satellite-card">
+        <img src="risat.png" alt="RISAT">
+        <h3>RISAT</h3>
+        <p>RISAT (Radar Imaging Satellite) offers radar-based earth observation to monitor agriculture, forestry, and disaster management.</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="gallery">
+    <h2>Gallery</h2>
+    <div class="gallery-images">
+      <img src="space1.jpg" alt="Space Image 1">
+      <img src="space2.jpg" alt="Space Image 2">
+      <img src="space3.jpg" alt="Space Image 3">
+    </div>
+  </section>
+
+  <section id="contact">
+    <h2>Contact Us</h2>
+    <p>Email: support@mosdac.gov.in</p>
+    <p>Website: <a href="https://www.mosdac.gov.in" target="_blank">www.mosdac.gov.in</a></p>
+  </section>
+
+  <footer>
+    <p>© MODSAC Help Bot 2025</p>
+  </footer>
+
+  <!-- 🪄 Floating Bot Image -->
+  <div class="bot-image">
+    <img src="https://cdn-icons-png.flaticon.com/512/4712/4712027.png" alt="Chat Bot">
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
