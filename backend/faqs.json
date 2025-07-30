@@ -1,0 +1,22 @@
+[
+  {
+    "question": "What is MOSDAC?",
+    "answer": "MOSDAC stands for Meteorological and Oceanographic Satellite Data Archival Centre. It provides data and services for satellite meteorology and oceanography applications."
+  },
+  {
+    "question": "How can I access satellite data on MOSDAC?",
+    "answer": "Users need to register on the MOSDAC portal to access satellite data products. After logging in, you can search and download datasets."
+  },
+  {
+    "question": "What satellite missions are supported by MOSDAC?",
+    "answer": "MOSDAC hosts data from missions like INSAT-3D, INSAT-3DR, Megha-Tropiques, and SCATSAT-1."
+  },
+  {
+    "question": "Can I access real-time weather information from MOSDAC?",
+    "answer": "Yes, MOSDAC provides real-time weather updates and value-added products based on satellite data."
+  },
+  {
+    "question": "Does MOSDAC provide API access for developers?",
+    "answer": "Currently, MOSDAC does not provide direct API access. Users can download data products manually from the portal."
+  }
+]
